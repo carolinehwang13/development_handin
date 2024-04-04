@@ -12,7 +12,14 @@
     <h1>Development</h1>
     <div id="intro">
       <h2>Introduction</h2>
-      <p>Write introduction here</p>
+      <p>
+        In order to practice creating a reactive website, I created a site
+        called "Plant Paradise" whose display changes based on user actions.
+        Plant Paradise is an online plant shop that allows users to sort and
+        filter through its inventory and add/remove plants to their cart. Going
+        into this project, the key aspects that I wanted to focus on were
+        becoming familiar with React applications, using states in React, and using components as types of objects. Additionally, before I began making my own reactive website, I carried out a competative analysis of 3 sites with similar aggregator features to inspire the functionality of my webpage.
+      </p>
     </div>
     <div id="part1">
       <h2>Part 1: Competitive Analysis</h2>
@@ -101,20 +108,16 @@
         the user to prematurely judge how good a post/video/song is. <br /><b
           >What I want to incorporate:</b
         ><br />
-        Based on this comparison analysis, there are four main features I want
+        Based on this comparison analysis, there are three main features I want
         to focus on implementing in my own aggregator.
       </p>
       <ol>
         <li>A one-click adding process</li>
         <li>
           Some sign that the button has been clicked and the item successfully
-          added
+          added (and the number of times)
         </li>
         <li>An easy way to remove from the list</li>
-        <li>
-          Storing favorited items in a list in the order they were liked (newest
-          to oldest)
-        </li>
       </ol>
     </div>
     <div id="part2">
@@ -123,31 +126,49 @@
         To demonstrate the use of an aggregator, I chose to replicate an online
         plant store. My plant store (Plant Paradise) has an inventory of plants
         that users can add to their cart. Since some users may not know exactly
-        what they are looking for, the online store allows them to sort based on
-        climate, ease of care, and alphebetically. Additionally, if users
-        know a specific category of plant they want, they can filter through the
-        inventory based on climate, family, and size. Users can add multiple of
-        each plant to their cart and remove if they change their mind. Below is
-        a quick mockup of Plant Paradise.
+        what they are looking for, the online store allows them to filter
+        inventory by climate and ease of care. Additionally, users can sort
+        alphebetically and by price. Users can add multiple of each plant to
+        their cart and remove if they change their mind. Below is a quick mockup
+        of Plant Paradise.
       </p>
-      <img
-        id="mockup"
-        src="./assets/Development-1.jpg"
-        alt="Mockup of Plant Paradise"
-      />
-      <p>(Note that some of the features of the mockup are different in the final product!)</p>
+      <img src="./assets/Development-1.jpg" alt="Mockup of Plant Paradise" />
+      <p>
+        (Note that some of the features of the mockup ended up different in the
+        final product!)
+      </p>
       <p>
         The key features of Plant Paradise are the sort, filter, add to cart,
         and remove from cart functionalities. Once users click the "sort"
         button, they will see a dropdown menu of features to sort by and can
-        choose one at a time. When the user clicks on the climate or difficulty filters, they will see a
-        dropdown menu of features to filter by. Users can
-        click the add button to add to their cart. Inside the cart, they can continue to add multiple of the plant to the cart (which will display the current amount in the cart)
-        or delete it.
+        choose one at a time. When the user clicks on the climate or difficulty
+        filters, they will see a dropdown menu of features to filter by. Users
+        can click the add button to add to their cart. Inside the cart, they can
+        continue to add multiple of the plant to the cart (which will display
+        the current amount in the cart) or delete it.
       </p>
     </div>
     <div id="part3">
       <h2>Part 3: Deployment</h2>
+      <a href="https://development-three-orcin.vercel.app/"
+        >This is the link to my deployed webpage!</a>
+      <p>
+        After deciding what features to include and what my page would look
+        like, I coded the site! Some of the feautres of the final product ended
+        up being different than in my quick mockup. For instance, the cart
+        itself does not have an add/remove item feature, only the item cards.
+        However, overall, I was able to use React states to carry out the most
+        important functionalities: sorting, filtering, and keeping track of cart
+        contents. Below is a screenshot of the page:
+      </p>
+      <img
+        src="./assets/Development-2.png"
+        alt="Final screenshot of Plant Paradise"
+      />
+    </div>
+    <div id="conclusion">
+      <h2>Conclusion</h2>
+      <p>Overall, I believe my reactive webpage met the goals I set. I was succesfully able to utilize React states and components that respond to user functionality. The process made me much more comfortable with incorporating states into projects and showed me how essential they are for allowing a website to be reactive. I had a difficult time at first determining the best way to sort and filter, but once I had a more solid understanding of how to utilize states, I found these functionalities pretty straightforward to implement. I also found the competative analysis process inspiring when it came to picturing what I wanted my webpage to look like. </p>
     </div>
   </body>
 </html>

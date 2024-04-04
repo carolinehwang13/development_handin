@@ -37,7 +37,11 @@ td {
   text-align: center;
 }
 
-img {
+#mockup {
+  width: 50%;
+  align-self: center;
+}
+#ss {
   width: 50%;
   align-self: center;
 }

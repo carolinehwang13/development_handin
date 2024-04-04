@@ -2,12 +2,152 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Redeisgn</title>
+    <title>Development</title>
     <!-- import CSS styles -->
     <link rel="stylesheet" href="styles.css" />
   </head>
 
   <!-- page content goes into <body> -->
   <body>
+    <h1>Development</h1>
+    <div id="intro">
+      <h2>Introduction</h2>
+      <p>Write introduction here</p>
+    </div>
+    <div id="part1">
+      <h2>Part 1: Competitive Analysis</h2>
+      <p>
+        To see which list features I wanted to include in my own aggregator, I
+        first wanted to compare aggregators on existing websites. To do this, I
+        chose 3 websites with favoriting functionality: Spotify (browser),
+        Pinterest, and YouTube. Below I break down the comparisons I found
+        between the 3 websites.
+      </p>
+
+      <table>
+        <tr>
+          <th></th>
+          <th>Spotify</th>
+          <th>Twitter</th>
+          <th>YouTube</th>
+        </tr>
+        <tr>
+          <td>Visible on profile</td>
+          <td>No</td>
+          <td>Yes</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td>Message/animation after favoriting</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <td>Dislike function</td>
+          <td>No</td>
+          <td>No</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <td>Shows how many other people liked</td>
+          <td>No</td>
+          <td>Yes</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <td>Represented as positive icon (heart, thumbs up)</td>
+          <td>No</td>
+          <td>Yes</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <td>Stored in chronological order</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <td>Don't have to switch pages to like</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>Yes</td>
+        </tr>
+      </table>
+      <p>
+        <b>Likes: </b><br />Based on my own experiences, I found some of the
+        features in the above table more successful than others. I enjoyed when
+        the websites represented the "like" button as a heart or thumbs up
+        because it lets me know as a user which button I need to press to
+        favorite something. This is something YouTube and Twitter have that
+        Spotify does not. Spotify's is simply a "+", which can be confusing
+        because it is not clear what list you are adding the song to. Another
+        feature I enjoyed was some kind of animation or sign that I had
+        successfully liked something. This is something all the websites had,
+        and it is helpful in letting the user know the state of the system. I
+        also thought all 3 websites were pretty straightforward in terms of
+        finding the like button because once you had the post/song/video in
+        front of you, it only takes one click to like it. <br /><b>Dislikes:</b
+        ><br />One factor that might be confusing for users is the dislike
+        functionality on YouTube. This is because if you dislike a video, it
+        does not save the video anywhere, making it difficult to unlike it.
+        Additionally, the dislike button is right next to the like button, which
+        can make it easy to accidentally dislike a video. Some of the more
+        subjective features are making your likes visible on your profile and
+        showing how many likes something has. Visible likes can be good if you
+        want to share things you find interesting, but can be bad if a user
+        wants to keep their likes more private. Showing how many likes something
+        has can be good to show how popular it is, but can be bad if it causes
+        the user to prematurely judge how good a post/video/song is. <br /><b
+          >What I want to incorporate:</b
+        ><br />
+        Based on this comparison analysis, there are four main features I want
+        to focus on implementing in my own aggregator.
+      </p>
+      <ol>
+        <li>A one-click adding process</li>
+        <li>
+          Some sign that the button has been clicked and the item successfully
+          added
+        </li>
+        <li>An easy way to remove from the list</li>
+        <li>
+          Storing favorited items in a list in the order they were liked (newest
+          to oldest)
+        </li>
+      </ol>
+    </div>
+    <div id="part2">
+      <h2>Part 2: Functionality</h2>
+      <p>
+        To demonstrate the use of an aggregator, I chose to replicate an online
+        plant store. My plant store (Plant Paradise) has an inventory of plants
+        that users can add to their cart. Since some users may not know exactly
+        what they are looking for, the online store allows them to sort based on
+        climate, ease of care, and alphebetically. Additionally, if users
+        know a specific category of plant they want, they can filter through the
+        inventory based on climate, family, and size. Users can add multiple of
+        each plant to their cart and remove if they change their mind. Below is
+        a quick mockup of Plant Paradise.
+      </p>
+      <img
+        id="mockup"
+        src="./assets/Development-1.jpg"
+        alt="Mockup of Plant Paradise"
+      />
+      <p>(Note that some of the features of the mockup are different in the final product!)</p>
+      <p>
+        The key features of Plant Paradise are the sort, filter, add to cart,
+        and remove from cart functionalities. Once users click the "sort"
+        button, they will see a dropdown menu of features to sort by and can
+        choose one at a time. When the user clicks on the climate or difficulty filters, they will see a
+        dropdown menu of features to filter by. Users can
+        click the add button to add to their cart. Inside the cart, they can continue to add multiple of the plant to the cart (which will display the current amount in the cart)
+        or delete it.
+      </p>
+    </div>
+    <div id="part3">
+      <h2>Part 3: Deployment</h2>
+    </div>
   </body>
 </html>
